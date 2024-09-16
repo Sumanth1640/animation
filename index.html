@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+
+            top: 250px;
+            left: 650px;
+
+            border-style: solid;
+            border-color: black;
+
+            border-width: 10px 10px 0px 0px;
+            
+            animation: fun;
+            animation-duration: 3000ms;
+            /* animation-direction: alternate-reverse; */
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(1, 1, 1, 1);
+        }
+
+        @keyframes fun {
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        
+        
+    </style>
+</head>
+<body>
+    
+    <div>
+        <img src="https://m.media-amazon.com/images/M/MV5BNWM2MWQ4OWEtMDY5ZS00ODcyLWE4YjQtZDQ3Y2JhYTI4MzNjXkEyXkFqcGdeQVRoaXJkUGFydHlJbmdlc3Rpb25Xb3JrZmxvdw@@._V1_.jpg" alt="">
+    </div>
+    
+</body>
+</html>
